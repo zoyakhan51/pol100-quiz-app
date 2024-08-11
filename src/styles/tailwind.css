@@ -1,0 +1,19 @@
+/* src/styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.progress-bar{
+    width: 500px;
+    background-color: aquamarine;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.progress{
+    width:0px;
+    height: 100%;
+    background-color: antiquewhite;
+    transition: width 0.3s ease;
+}
